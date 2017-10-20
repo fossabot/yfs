@@ -10,4 +10,4 @@
  */
 'use strict';
 require('babel-core/register');
-require('./server');
+require('./wdis');
