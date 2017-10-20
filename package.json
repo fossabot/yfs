@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*",
-    "test": "mocha --reporter spec",
+    "test": "node_modules/.bin/mocha --reporter spec",
     "start": "node index.js"
   },
   "author": "Robert Hameetman <rob@rham.io>",
