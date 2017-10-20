@@ -10,9 +10,9 @@
  */
 
 'use strict';
-import YahooFantasy from "../index";
+import Collection from "./index";
 
-class TeamsCollection extends YahooFantasy {
+class TeamsCollection extends Collection {
     constructor(yf) {
         super(yf);
         this.yf = yf;
